@@ -7,7 +7,7 @@ class App3 extends React.Component {
     state = { gif: [] }
 
     onSearchSubmit = async term =>{
-        const response = await axios.get('https://api.giphy.com/v1/gifs/search?api_key=cONdbpfLiSJpkkxXSLEC4zPWHYLuC26g&q=tube&limit=25&offset=0&rating=G&lang=en', {
+        const response = await axios.get('https://api.giphy.com/v1/gifs/search?api_key=/* Write Your Key Here */=tube&limit=25&offset=0&rating=G&lang=en', {
             params: {
                 q: term
             }
