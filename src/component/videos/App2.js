@@ -20,7 +20,7 @@ class App2 extends Component {
                 part : 'snippet',
                 maxResults : 5,
                 q: term,
-                key : 'AIzaSyC_a7L0eBkFEH78WI3OGSvCvDvHXQGiUYQ'
+                key : ' /* Write Your Key Here */ '
             }
         }) 
         
